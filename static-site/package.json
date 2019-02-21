@@ -1,0 +1,14 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.13",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}

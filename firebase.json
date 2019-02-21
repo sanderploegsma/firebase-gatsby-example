@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "predeploy": [
+      "yarn",
+      "yarn workspace static-site build"
+    ]
+  },
+  "hosting": {
+    "public": "static-site/public",
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "api"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

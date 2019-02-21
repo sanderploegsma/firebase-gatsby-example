@@ -1,0 +1,5 @@
+{
+  "name": "academy",
+  "private": true,
+  "workspaces": ["functions", "static-site"]
+}
