@@ -1,5 +1,11 @@
 {
   "name": "academy",
   "private": true,
-  "workspaces": ["functions", "static-site"]
+  "workspaces": [
+    "functions",
+    "static-site"
+  ],
+  "devDependencies": {
+    "firebase-tools": "^6.3.1"
+  }
 }
